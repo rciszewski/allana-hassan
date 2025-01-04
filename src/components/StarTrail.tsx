@@ -81,7 +81,7 @@ export function StarTrail() {
           }}
         >
           <Image
-            src="/star_white.png"
+            src="/Star_white.png"
             width={100}
             height={100}
             alt="twinkle star"
