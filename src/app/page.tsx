@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { StarTrail } from "@/components/StarTrail";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -33,7 +34,13 @@ export default function Home() {
             variant={"default"}
             className="min-w-48 rounded-3xl"
           >
-            Portfolio
+            <Link
+              href={"https://www.allanahassan.com"}
+              target="_blank"
+              referrerPolicy="no-referrer"
+            >
+              Portfolio
+            </Link>
           </Button>
         </div>
       </div>
